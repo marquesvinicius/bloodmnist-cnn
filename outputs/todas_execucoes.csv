@@ -1,0 +1,8 @@
+run,optim,lr,wd,sched,best_epoch,epochs_run,val_macro_f1,train_time_s,model,balance
+cnn_bal-none,adamw,0.001,0.05,cosine,26,30,0.9696026294562696,520.894282579422,CustomCNN,none
+cnn_bal-weighted,adamw,0.001,0.05,cosine,24,30,0.9702256123394897,519.8346474170685,CustomCNN,weighted
+cnn_bal-sampler,adamw,0.001,0.05,cosine,27,30,0.9704253425826885,522.6103584766388,CustomCNN,sampler
+cnn_adamw-3e-3,adamw,0.003,0.05,cosine,26,30,0.9702586244528932,525.0810143947601,CustomCNN,sampler
+cnn_sgd-0.05,sgd,0.05,0.0005,cosine,26,30,0.9690114768270024,518.9177286624908,CustomCNN,sampler
+cnn_plateau,adamw,0.001,0.05,plateau,27,30,0.9665858967985137,521.7578003406525,CustomCNN,sampler
+resnet18,adamw,0.0003,0.05,cosine,16,20,0.9762310656568096,376.4727056026459,ResNet18,sampler

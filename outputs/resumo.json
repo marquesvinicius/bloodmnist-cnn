@@ -1,0 +1,32 @@
+{
+  "submissao": "ResNet18 + TTA",
+  "test_macro_f1": 0.9750339860642725,
+  "test_acc": 0.977491961414791,
+  "test_loss": 0.1492806077003479,
+  "ms_por_batch": 203.83934223456643,
+  "melhor_balanceamento": "sampler",
+  "melhor_cnn": "cnn_bal-sampler",
+  "dispositivo": "cuda",
+  "modo_rapido": false,
+  "cfg": {
+    "quick": false,
+    "seed": 42,
+    "batch_size": 128,
+    "num_workers": 2,
+    "cnn_epochs": 30,
+    "cnn_widths": [
+      64,
+      128,
+      256
+    ],
+    "cnn_dropout": 0.3,
+    "resnet_epochs": 20,
+    "resnet_img_size": 128,
+    "resnet_lr": 0.0003,
+    "resnet_wd": 0.05,
+    "label_smoothing": 0.1,
+    "patience": 8,
+    "quick_train": 600,
+    "quick_eval": 300
+  }
+}

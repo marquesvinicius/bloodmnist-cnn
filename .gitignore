@@ -1,0 +1,12 @@
+# ambiente local
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# arquivos pesados / duplicados
+outputs/checkpoints/
+outputs.zip
+
+# material pessoal (não faz parte da entrega)
+GUIA_DO_ALUNO.md
+Atividade BloodMNIST.pdf
