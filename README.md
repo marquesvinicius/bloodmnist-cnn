@@ -1,6 +1,6 @@
 # BloodMNIST — Classificação de células sanguíneas com CNNs
 
-[![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/marquesvinicius/bloodmnist-cnn/blob/main/bloodmnist.ipynb)
+[![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/marquesvinicius/bloodmnist-cnn/blob/master/bloodmnist.ipynb)
 
 **Resultado oficial (teste):** Macro F1 = **0,9750** · acurácia 0,9775 · test loss 0,1493 (ResNet18 + TTA).
 
